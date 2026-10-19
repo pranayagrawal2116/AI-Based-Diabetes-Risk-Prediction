@@ -1,0 +1,1657 @@
+{
+  "dataset_audits": {
+    "diabetes_prediction_dataset.csv": {
+      "filename": "diabetes_prediction_dataset.csv",
+      "path": "/Users/pranay/Documents/Collage/TY/Sem 5/AISA/AI_Project/data/raw/diabetes_prediction_dataset.csv",
+      "md5": "cb243b99d81d96e9aeb08944ce9ac066",
+      "file_size_mb": 3.63,
+      "n_rows": 100000,
+      "n_cols": 9,
+      "n_duplicates": 3854,
+      "dup_percentage": 3.85,
+      "total_nulls": 0,
+      "columns": {
+        "gender": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 3,
+          "samples": [
+            "Female",
+            "Male",
+            "Other"
+          ],
+          "is_numeric": false
+        },
+        "age": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 102,
+          "samples": [
+            "80.0",
+            "54.0",
+            "28.0",
+            "36.0",
+            "76.0",
+            "... (102 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.08,
+          "max": 80.0,
+          "mean": 41.886,
+          "std": 22.517
+        },
+        "hypertension": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.075,
+          "std": 0.263
+        },
+        "heart_disease": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.039,
+          "std": 0.195
+        },
+        "smoking_history": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 6,
+          "samples": [
+            "never",
+            "No Info",
+            "current",
+            "former",
+            "ever",
+            "not current"
+          ],
+          "is_numeric": false
+        },
+        "bmi": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 4247,
+          "samples": [
+            "25.19",
+            "27.32",
+            "23.45",
+            "20.14",
+            "19.31",
+            "... (4247 total)"
+          ],
+          "is_numeric": true,
+          "min": 10.01,
+          "max": 95.69,
+          "mean": 27.321,
+          "std": 6.637
+        },
+        "HbA1c_level": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 18,
+          "samples": [
+            "6.6",
+            "5.7",
+            "5.0",
+            "4.8",
+            "6.5",
+            "... (18 total)"
+          ],
+          "is_numeric": true,
+          "min": 3.5,
+          "max": 9.0,
+          "mean": 5.528,
+          "std": 1.071
+        },
+        "blood_glucose_level": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 18,
+          "samples": [
+            "140",
+            "80",
+            "158",
+            "155",
+            "85",
+            "... (18 total)"
+          ],
+          "is_numeric": true,
+          "min": 80.0,
+          "max": 300.0,
+          "mean": 138.058,
+          "std": 40.708
+        },
+        "diabetes": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.085,
+          "std": 0.279
+        }
+      },
+      "targets": {
+        "diabetes": {
+          "counts": {
+            "0": 91500,
+            "1": 8500
+          },
+          "percentages": {
+            "0": 91.5,
+            "1": 8.5
+          }
+        }
+      }
+    },
+    "diabetes_prediction_dataset(1).csv": {
+      "filename": "diabetes_prediction_dataset(1).csv",
+      "path": "/Users/pranay/Documents/Collage/TY/Sem 5/AISA/AI_Project/data/raw/diabetes_prediction_dataset(1).csv",
+      "md5": "cb243b99d81d96e9aeb08944ce9ac066",
+      "file_size_mb": 3.63,
+      "n_rows": 100000,
+      "n_cols": 9,
+      "n_duplicates": 3854,
+      "dup_percentage": 3.85,
+      "total_nulls": 0,
+      "columns": {
+        "gender": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 3,
+          "samples": [
+            "Female",
+            "Male",
+            "Other"
+          ],
+          "is_numeric": false
+        },
+        "age": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 102,
+          "samples": [
+            "80.0",
+            "54.0",
+            "28.0",
+            "36.0",
+            "76.0",
+            "... (102 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.08,
+          "max": 80.0,
+          "mean": 41.886,
+          "std": 22.517
+        },
+        "hypertension": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.075,
+          "std": 0.263
+        },
+        "heart_disease": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.039,
+          "std": 0.195
+        },
+        "smoking_history": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 6,
+          "samples": [
+            "never",
+            "No Info",
+            "current",
+            "former",
+            "ever",
+            "not current"
+          ],
+          "is_numeric": false
+        },
+        "bmi": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 4247,
+          "samples": [
+            "25.19",
+            "27.32",
+            "23.45",
+            "20.14",
+            "19.31",
+            "... (4247 total)"
+          ],
+          "is_numeric": true,
+          "min": 10.01,
+          "max": 95.69,
+          "mean": 27.321,
+          "std": 6.637
+        },
+        "HbA1c_level": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 18,
+          "samples": [
+            "6.6",
+            "5.7",
+            "5.0",
+            "4.8",
+            "6.5",
+            "... (18 total)"
+          ],
+          "is_numeric": true,
+          "min": 3.5,
+          "max": 9.0,
+          "mean": 5.528,
+          "std": 1.071
+        },
+        "blood_glucose_level": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 18,
+          "samples": [
+            "140",
+            "80",
+            "158",
+            "155",
+            "85",
+            "... (18 total)"
+          ],
+          "is_numeric": true,
+          "min": 80.0,
+          "max": 300.0,
+          "mean": 138.058,
+          "std": 40.708
+        },
+        "diabetes": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.085,
+          "std": 0.279
+        }
+      },
+      "targets": {
+        "diabetes": {
+          "counts": {
+            "0": 91500,
+            "1": 8500
+          },
+          "percentages": {
+            "0": 91.5,
+            "1": 8.5
+          }
+        }
+      }
+    },
+    "diabetes_data_upload.csv": {
+      "filename": "diabetes_data_upload.csv",
+      "path": "/Users/pranay/Documents/Collage/TY/Sem 5/AISA/AI_Project/data/raw/diabetes_data_upload.csv",
+      "md5": "2554cdb70c11374b4c317421cb4642f6",
+      "file_size_mb": 0.03,
+      "n_rows": 520,
+      "n_cols": 17,
+      "n_duplicates": 269,
+      "dup_percentage": 51.73,
+      "total_nulls": 0,
+      "columns": {
+        "Age": {
+          "dtype": "int64",
+          "null_count": 0,
+          "unique_count": 51,
+          "samples": [
+            "40",
+            "58",
+            "41",
+            "45",
+            "60",
+            "... (51 total)"
+          ],
+          "is_numeric": true,
+          "min": 16.0,
+          "max": 90.0,
+          "mean": 48.029,
+          "std": 12.151
+        },
+        "Gender": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Male",
+            "Female"
+          ],
+          "is_numeric": false
+        },
+        "Polyuria": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "No",
+            "Yes"
+          ],
+          "is_numeric": false
+        },
+        "Polydipsia": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Yes",
+            "No"
+          ],
+          "is_numeric": false
+        },
+        "sudden weight loss": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "No",
+            "Yes"
+          ],
+          "is_numeric": false
+        },
+        "weakness": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Yes",
+            "No"
+          ],
+          "is_numeric": false
+        },
+        "Polyphagia": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "No",
+            "Yes"
+          ],
+          "is_numeric": false
+        },
+        "Genital thrush": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "No",
+            "Yes"
+          ],
+          "is_numeric": false
+        },
+        "visual blurring": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "No",
+            "Yes"
+          ],
+          "is_numeric": false
+        },
+        "Itching": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Yes",
+            "No"
+          ],
+          "is_numeric": false
+        },
+        "Irritability": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "No",
+            "Yes"
+          ],
+          "is_numeric": false
+        },
+        "delayed healing": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Yes",
+            "No"
+          ],
+          "is_numeric": false
+        },
+        "partial paresis": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "No",
+            "Yes"
+          ],
+          "is_numeric": false
+        },
+        "muscle stiffness": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Yes",
+            "No"
+          ],
+          "is_numeric": false
+        },
+        "Alopecia": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Yes",
+            "No"
+          ],
+          "is_numeric": false
+        },
+        "Obesity": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Yes",
+            "No"
+          ],
+          "is_numeric": false
+        },
+        "class": {
+          "dtype": "str",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "Positive",
+            "Negative"
+          ],
+          "is_numeric": false
+        }
+      },
+      "targets": {
+        "class": {
+          "counts": {
+            "Positive": 320,
+            "Negative": 200
+          },
+          "percentages": {
+            "Positive": 61.54,
+            "Negative": 38.46
+          }
+        }
+      }
+    },
+    "diabetes_binary_health_indicators_BRFSS2015.csv": {
+      "filename": "diabetes_binary_health_indicators_BRFSS2015.csv",
+      "path": "/Users/pranay/Documents/Collage/TY/Sem 5/AISA/AI_Project/data/raw/diabetes_binary_health_indicators_BRFSS2015.csv",
+      "md5": "8f90e44047182c5f32d10f0c4dd4890f",
+      "file_size_mb": 21.68,
+      "n_rows": 253680,
+      "n_cols": 22,
+      "n_duplicates": 24206,
+      "dup_percentage": 9.54,
+      "total_nulls": 0,
+      "columns": {
+        "Diabetes_binary": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.139,
+          "std": 0.346
+        },
+        "HighBP": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.429,
+          "std": 0.495
+        },
+        "HighChol": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.424,
+          "std": 0.494
+        },
+        "CholCheck": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.963,
+          "std": 0.19
+        },
+        "BMI": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 84,
+          "samples": [
+            "40.0",
+            "25.0",
+            "28.0",
+            "27.0",
+            "24.0",
+            "... (84 total)"
+          ],
+          "is_numeric": true,
+          "min": 12.0,
+          "max": 98.0,
+          "mean": 28.382,
+          "std": 6.609
+        },
+        "Smoker": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.443,
+          "std": 0.497
+        },
+        "Stroke": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.041,
+          "std": 0.197
+        },
+        "HeartDiseaseorAttack": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.094,
+          "std": 0.292
+        },
+        "PhysActivity": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.757,
+          "std": 0.429
+        },
+        "Fruits": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.634,
+          "std": 0.482
+        },
+        "Veggies": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.811,
+          "std": 0.391
+        },
+        "HvyAlcoholConsump": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.056,
+          "std": 0.23
+        },
+        "AnyHealthcare": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.951,
+          "std": 0.216
+        },
+        "NoDocbcCost": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.084,
+          "std": 0.278
+        },
+        "GenHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 5,
+          "samples": [
+            "5",
+            "3",
+            "2",
+            "4",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 2.511,
+          "std": 1.068
+        },
+        "MentHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 31,
+          "samples": [
+            "18.0",
+            "0.0",
+            "30.0",
+            "3.0",
+            "5.0",
+            "... (31 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 30.0,
+          "mean": 3.185,
+          "std": 7.413
+        },
+        "PhysHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 31,
+          "samples": [
+            "15.0",
+            "0.0",
+            "30.0",
+            "2.0",
+            "14.0",
+            "... (31 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 30.0,
+          "mean": 4.242,
+          "std": 8.718
+        },
+        "DiffWalk": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.168,
+          "std": 0.374
+        },
+        "Sex": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.44,
+          "std": 0.496
+        },
+        "Age": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 13,
+          "samples": [
+            "9.0",
+            "7.0",
+            "11.0",
+            "10.0",
+            "8.0",
+            "... (13 total)"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 13.0,
+          "mean": 8.032,
+          "std": 3.054
+        },
+        "Education": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 6,
+          "samples": [
+            "4",
+            "6",
+            "3",
+            "5",
+            "2",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 6.0,
+          "mean": 5.05,
+          "std": 0.986
+        },
+        "Income": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 8,
+          "samples": [
+            "3",
+            "1",
+            "8",
+            "6",
+            "4",
+            "7",
+            "2",
+            "5"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 8.0,
+          "mean": 6.054,
+          "std": 2.071
+        }
+      },
+      "targets": {
+        "Diabetes_binary": {
+          "counts": {
+            "0.0": 218334,
+            "1.0": 35346
+          },
+          "percentages": {
+            "0.0": 86.07,
+            "1.0": 13.93
+          }
+        }
+      }
+    },
+    "diabetes_binary_5050split_health_indicators_BRFSS2015.csv": {
+      "filename": "diabetes_binary_5050split_health_indicators_BRFSS2015.csv",
+      "path": "/Users/pranay/Documents/Collage/TY/Sem 5/AISA/AI_Project/data/raw/diabetes_binary_5050split_health_indicators_BRFSS2015.csv",
+      "md5": "a4eacbf9582e777cd4cec479bced6d87",
+      "file_size_mb": 6.05,
+      "n_rows": 70692,
+      "n_cols": 22,
+      "n_duplicates": 1635,
+      "dup_percentage": 2.31,
+      "total_nulls": 0,
+      "columns": {
+        "Diabetes_binary": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.5,
+          "std": 0.5
+        },
+        "HighBP": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.563,
+          "std": 0.496
+        },
+        "HighChol": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.526,
+          "std": 0.499
+        },
+        "CholCheck": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.975,
+          "std": 0.155
+        },
+        "BMI": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 80,
+          "samples": [
+            "26.0",
+            "28.0",
+            "29.0",
+            "18.0",
+            "31.0",
+            "... (80 total)"
+          ],
+          "is_numeric": true,
+          "min": 12.0,
+          "max": 98.0,
+          "mean": 29.857,
+          "std": 7.114
+        },
+        "Smoker": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.475,
+          "std": 0.499
+        },
+        "Stroke": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.062,
+          "std": 0.241
+        },
+        "HeartDiseaseorAttack": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.148,
+          "std": 0.355
+        },
+        "PhysActivity": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.703,
+          "std": 0.457
+        },
+        "Fruits": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.612,
+          "std": 0.487
+        },
+        "Veggies": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.789,
+          "std": 0.408
+        },
+        "HvyAlcoholConsump": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.043,
+          "std": 0.202
+        },
+        "AnyHealthcare": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.955,
+          "std": 0.207
+        },
+        "NoDocbcCost": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.094,
+          "std": 0.292
+        },
+        "GenHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 5,
+          "samples": [
+            "3",
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 2.837,
+          "std": 1.114
+        },
+        "MentHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 31,
+          "samples": [
+            "5.0",
+            "0.0",
+            "7.0",
+            "3.0",
+            "4.0",
+            "... (31 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 30.0,
+          "mean": 3.752,
+          "std": 8.156
+        },
+        "PhysHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 31,
+          "samples": [
+            "30.0",
+            "0.0",
+            "10.0",
+            "3.0",
+            "6.0",
+            "... (31 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 30.0,
+          "mean": 5.81,
+          "std": 10.062
+        },
+        "DiffWalk": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.253,
+          "std": 0.435
+        },
+        "Sex": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.457,
+          "std": 0.498
+        },
+        "Age": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 13,
+          "samples": [
+            "4.0",
+            "12.0",
+            "13.0",
+            "11.0",
+            "8.0",
+            "... (13 total)"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 13.0,
+          "mean": 8.584,
+          "std": 2.852
+        },
+        "Education": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 6,
+          "samples": [
+            "6",
+            "5",
+            "4",
+            "3",
+            "2",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 6.0,
+          "mean": 4.921,
+          "std": 1.029
+        },
+        "Income": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 8,
+          "samples": [
+            "8",
+            "7",
+            "6",
+            "3",
+            "4",
+            "1",
+            "5",
+            "2"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 8.0,
+          "mean": 5.698,
+          "std": 2.175
+        }
+      },
+      "targets": {
+        "Diabetes_binary": {
+          "counts": {
+            "0.0": 35346,
+            "1.0": 35346
+          },
+          "percentages": {
+            "0.0": 50.0,
+            "1.0": 50.0
+          }
+        }
+      }
+    },
+    "diabetes_012_health_indicators_BRFSS2015.csv": {
+      "filename": "diabetes_012_health_indicators_BRFSS2015.csv",
+      "path": "/Users/pranay/Documents/Collage/TY/Sem 5/AISA/AI_Project/data/raw/diabetes_012_health_indicators_BRFSS2015.csv",
+      "md5": "0c84b09d240b72e8180bceff3965d1bd",
+      "file_size_mb": 21.68,
+      "n_rows": 253680,
+      "n_cols": 22,
+      "n_duplicates": 23899,
+      "dup_percentage": 9.42,
+      "total_nulls": 0,
+      "columns": {
+        "Diabetes_012": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 3,
+          "samples": [
+            "0",
+            "2",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 2.0,
+          "mean": 0.297,
+          "std": 0.698
+        },
+        "HighBP": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.429,
+          "std": 0.495
+        },
+        "HighChol": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.424,
+          "std": 0.494
+        },
+        "CholCheck": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.963,
+          "std": 0.19
+        },
+        "BMI": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 84,
+          "samples": [
+            "40.0",
+            "25.0",
+            "28.0",
+            "27.0",
+            "24.0",
+            "... (84 total)"
+          ],
+          "is_numeric": true,
+          "min": 12.0,
+          "max": 98.0,
+          "mean": 28.382,
+          "std": 6.609
+        },
+        "Smoker": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.443,
+          "std": 0.497
+        },
+        "Stroke": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.041,
+          "std": 0.197
+        },
+        "HeartDiseaseorAttack": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.094,
+          "std": 0.292
+        },
+        "PhysActivity": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.757,
+          "std": 0.429
+        },
+        "Fruits": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.634,
+          "std": 0.482
+        },
+        "Veggies": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.811,
+          "std": 0.391
+        },
+        "HvyAlcoholConsump": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.056,
+          "std": 0.23
+        },
+        "AnyHealthcare": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.951,
+          "std": 0.216
+        },
+        "NoDocbcCost": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.084,
+          "std": 0.278
+        },
+        "GenHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 5,
+          "samples": [
+            "5",
+            "3",
+            "2",
+            "4",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 5.0,
+          "mean": 2.511,
+          "std": 1.068
+        },
+        "MentHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 31,
+          "samples": [
+            "18.0",
+            "0.0",
+            "30.0",
+            "3.0",
+            "5.0",
+            "... (31 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 30.0,
+          "mean": 3.185,
+          "std": 7.413
+        },
+        "PhysHlth": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 31,
+          "samples": [
+            "15.0",
+            "0.0",
+            "30.0",
+            "2.0",
+            "14.0",
+            "... (31 total)"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 30.0,
+          "mean": 4.242,
+          "std": 8.718
+        },
+        "DiffWalk": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "1",
+            "0"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.168,
+          "std": 0.374
+        },
+        "Sex": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 2,
+          "samples": [
+            "0",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 0.0,
+          "max": 1.0,
+          "mean": 0.44,
+          "std": 0.496
+        },
+        "Age": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 13,
+          "samples": [
+            "9.0",
+            "7.0",
+            "11.0",
+            "10.0",
+            "8.0",
+            "... (13 total)"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 13.0,
+          "mean": 8.032,
+          "std": 3.054
+        },
+        "Education": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 6,
+          "samples": [
+            "4",
+            "6",
+            "3",
+            "5",
+            "2",
+            "1"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 6.0,
+          "mean": 5.05,
+          "std": 0.986
+        },
+        "Income": {
+          "dtype": "float64",
+          "null_count": 0,
+          "unique_count": 8,
+          "samples": [
+            "3",
+            "1",
+            "8",
+            "6",
+            "4",
+            "7",
+            "2",
+            "5"
+          ],
+          "is_numeric": true,
+          "min": 1.0,
+          "max": 8.0,
+          "mean": 6.054,
+          "std": 2.071
+        }
+      },
+      "targets": {
+        "Diabetes_012": {
+          "counts": {
+            "0.0": 213703,
+            "2.0": 35346,
+            "1.0": 4631
+          },
+          "percentages": {
+            "0.0": 84.24,
+            "2.0": 13.93,
+            "1.0": 1.83
+          }
+        }
+      }
+    }
+  },
+  "cross_dataset_integrity": {
+    "clinical_duplicate_check": {
+      "file_1": "diabetes_prediction_dataset.csv",
+      "file_2": "diabetes_prediction_dataset(1).csv",
+      "file_1_md5": "cb243b99d81d96e9aeb08944ce9ac066",
+      "file_2_md5": "cb243b99d81d96e9aeb08944ce9ac066",
+      "is_identical": true,
+      "conclusion": "CONFIRMED 100% IDENTICAL DUPLICATE FILE. The two clinical files have identical byte hashes and row distributions (100,000 rows each). To maintain scientific integrity and prevent data snooping / data duplication, file 2 is flagged as an exact duplicate and excluded from combined training."
+    },
+    "brfss_binary_vs_012_check": {
+      "file_binary": "diabetes_binary_health_indicators_BRFSS2015.csv",
+      "file_012": "diabetes_012_health_indicators_BRFSS2015.csv",
+      "same_row_count": true,
+      "features_identical": true,
+      "target_mapping_confirmed": true,
+      "conclusion": "CONFIRMED SAME UNDERLYING POPULATION. 'diabetes_binary_health_indicators_BRFSS2015.csv' and 'diabetes_012_health_indicators_BRFSS2015.csv' represent the exact same 253,680 survey respondents. In the binary file, prediabetes (class 1 in 012) was merged with non-diabetics (class 0). They MUST NOT be combined or treated as independent validation cohorts."
+    },
+    "brfss_binary_vs_5050_check": {
+      "file_binary": "diabetes_binary_health_indicators_BRFSS2015.csv",
+      "file_5050": "diabetes_binary_5050split_health_indicators_BRFSS2015.csv",
+      "binary_positives": 35346,
+      "balanced_5050_positives": 35346,
+      "is_subsample": true,
+      "conclusion": "CONFIRMED DERIVED SUBSAMPLE. 'diabetes_binary_5050split_health_indicators_BRFSS2015.csv' is an artificially balanced subsample containing all 35,346 diabetes cases from BRFSS and 35,346 randomly sampled non-diabetic controls. It CANNOT serve as an independent external test set for models trained on the full BRFSS dataset, as all diabetic cases overlap."
+    }
+  },
+  "recommendations": [
+    "Exclude 'diabetes_prediction_dataset(1).csv' from modeling to prevent double-counting 100,000 duplicate records.",
+    "Do NOT combine BRFSS survey data with clinical blood glucose records; their data collection protocols, feature distributions, and populations differ fundamentally.",
+    "Recognize that BRFSS 50-50 is a balanced subsample of BRFSS Binary; use it strictly to analyze class-imbalance sensitivity, not as an external validation set.",
+    "Implement deduplication-aware stratified splitting to prevent identical survey response vectors from leaking across train and test folds.",
+    "Separate assessment pipelines into distinct clinical, lifestyle, and symptom-based models."
+  ]
+}

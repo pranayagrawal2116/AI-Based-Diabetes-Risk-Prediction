@@ -1,0 +1,22 @@
+Feature,Type,Test,Statistic,p_value,Significant (alpha=0.01),Effect_Metric,Effect_Size,Group_0_Median,Group_1_Median
+BMI,Numerical,Mann-Whitney U,2405335216.5,0.00e+00,True,Median Diff,4.0,27.0,31.0
+Age,Numerical,Mann-Whitney U,2721036751.5,0.00e+00,True,Median Diff,2.0,8.0,10.0
+PhysHlth,Numerical,Mann-Whitney U,2986457157.0,0.00e+00,True,Median Diff,1.0,0.0,1.0
+GenHlth,Categorical,Chi-Square,22728.07,0.00e+00,True,Cramer's V,0.299,N/A,N/A
+HighBP,Categorical,Chi-Square,17562.45,0.00e+00,True,Cramer's V,0.263,N/A,N/A
+DiffWalk,Categorical,Chi-Square,12092.32,0.00e+00,True,Cramer's V,0.218,N/A,N/A
+HighChol,Categorical,Chi-Square,10174.07,0.00e+00,True,Cramer's V,0.2,N/A,N/A
+HeartDiseaseorAttack,Categorical,Chi-Square,7971.16,0.00e+00,True,Cramer's V,0.177,N/A,N/A
+PhysActivity,Categorical,Chi-Square,3539.42,0.00e+00,True,Cramer's V,0.118,N/A,N/A
+Stroke,Categorical,Chi-Square,2838.92,0.00e+00,True,Cramer's V,0.106,N/A,N/A
+CholCheck,Categorical,Chi-Square,1062.94,3.75e-233,True,Cramer's V,0.065,N/A,N/A
+Smoker,Categorical,Chi-Square,937.06,8.64e-206,True,Cramer's V,0.061,N/A,N/A
+HvyAlcoholConsump,Categorical,Chi-Square,825.12,1.87e-181,True,Cramer's V,0.057,N/A,N/A
+Veggies,Categorical,Chi-Square,811.81,1.46e-178,True,Cramer's V,0.057,N/A,N/A
+Fruits,Categorical,Chi-Square,421.61,1.09e-93,True,Cramer's V,0.041,N/A,N/A
+NoDocbcCost,Categorical,Chi-Square,250.31,2.22e-56,True,Cramer's V,0.031,N/A,N/A
+Sex,Categorical,Chi-Square,250.41,2.11e-56,True,Cramer's V,0.031,N/A,N/A
+AnyHealthcare,Categorical,Chi-Square,66.81,2.99e-16,True,Cramer's V,0.016,N/A,N/A
+MentHlth,Numerical,Mann-Whitney U,3648123651.5,1.75e-90,True,Median Diff,0.0,0.0,0.0
+Education,Numerical,Mann-Whitney U,4586376860.5,0.00e+00,True,Median Diff,0.0,5.0,5.0
+Income,Numerical,Mann-Whitney U,4879824256.5,0.00e+00,True,Median Diff,-1.0,7.0,6.0

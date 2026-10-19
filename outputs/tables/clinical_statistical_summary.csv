@@ -1,0 +1,10 @@
+Feature,Type,Test,Statistic,p_value,Significant (alpha=0.01),Effect_Metric,Effect_Size,Group_0_Median,Group_1_Median
+age,Numerical,Mann-Whitney U,177921743.5,0.00e+00,True,Median Diff,22.0,40.0,62.0
+blood_glucose_level,Numerical,Mann-Whitney U,168708872.0,0.00e+00,True,Median Diff,20.0,140.0,160.0
+bmi,Numerical,Mann-Whitney U,229153539.0,0.00e+00,True,Median Diff,2.65,27.32,29.97
+HbA1c_level,Numerical,Mann-Whitney U,125069804.5,0.00e+00,True,Median Diff,0.8,5.8,6.6
+age_group,Categorical,Chi-Square,7120.64,0.00e+00,True,Cramer's V,0.267,N/A,N/A
+hypertension,Categorical,Chi-Square,3910.71,0.00e+00,True,Cramer's V,0.198,N/A,N/A
+heart_disease,Categorical,Chi-Square,2945.85,0.00e+00,True,Cramer's V,0.172,N/A,N/A
+smoking_history,Categorical,Chi-Square,1956.09,0.00e+00,True,Cramer's V,0.14,N/A,N/A
+gender,Categorical,Chi-Square,143.22,7.95e-32,True,Cramer's V,0.038,N/A,N/A
